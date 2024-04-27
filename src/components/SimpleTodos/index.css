@@ -1,0 +1,44 @@
+.page-container {
+  background-color: #ffc2a0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+h1 {
+  color: #ffc2a0;
+  font-size: 30px;
+  font-weight: bold;
+}
+.ul-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.list-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.input {
+  outline: none;
+  border-radius: 7px;
+  border: 2px solid grey;
+  width: 500px;
+  padding: 10px;
+  margin-right: 10px;
+  align-self: center;
+}
+.add-button {
+  background-color: blue;
+  color: #ffffff;
+  padding: 2px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
